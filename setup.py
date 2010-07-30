@@ -11,7 +11,7 @@ try:
     import mpm
 finally:
     del sys.path[0]
-README = open(os.path.join(_top_dir, 'README.md')).read()
+README = open(os.path.join(_top_dir, 'README.txt')).read()
 
 setup(name='mpm',
     version=mpm.__version__,
