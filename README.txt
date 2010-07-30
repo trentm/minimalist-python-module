@@ -11,6 +11,12 @@ using Subversion more. Allows one to put the "lib" dir on PYTHONPATH and not
 have the "setup.py" and other supportive ".py" files unintentional get on the
 import path. Separates the important code from the chaf.
 
+# I want to use "README.md" for Markdown rendering on github.com
+
+Then you'll need to add a "MANIFEST.in" for "python setup.py sdist" to pick
+up the README file. It only picks up either "README" or "README.txt" by
+default.
+
 # What's left TODO?
 
 - do I need to use `setuptools` in "setup.py" or will distutils do?
