@@ -11,6 +11,10 @@ using Subversion more. Allows one to put the "lib" dir on PYTHONPATH and not
 have the "setup.py" and other supportive ".py" files unintentionally get on the
 import path. Separates the important code from the chaf.
 
+@voidspace: I still don't like the "lib" dir.
+
+
+
 # I want to use "README.md" for Markdown rendering on github.com
 
 Then you'll need to add a "MANIFEST.in" for "python setup.py sdist" to pick
