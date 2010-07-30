@@ -1,7 +1,8 @@
 A stab at a minimalist repo supporting a single Python module.
 Spurned by <http://twitter.com/jessenoller/status/19853449226> 
-(who still owes me a beer, BTW).  Q&A style:
+(who still owes me a beer, BTW).  
 
+Q&A
 
 # Why the "lib" subdir?
 
