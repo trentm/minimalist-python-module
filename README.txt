@@ -8,7 +8,7 @@ Q&A
 
 Allows nicer 3rd-party usage via 'svn:externals' -- historically when I was
 using Subversion more. Allows one to put the "lib" dir on PYTHONPATH and not
-have the "setup.py" and other supportive ".py" files unintentional get on the
+have the "setup.py" and other supportive ".py" files unintentionally get on the
 import path. Separates the important code from the chaf.
 
 # I want to use "README.md" for Markdown rendering on github.com
