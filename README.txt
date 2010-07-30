@@ -17,6 +17,14 @@ Then you'll need to add a "MANIFEST.in" for "python setup.py sdist" to pick
 up the README file. It only picks up either "README" or "README.txt" by
 default.
 
+# The "setup.py" is a little hefty
+
+Fair enough, you could argue that. I'd welcome suggestions on paring that
+down. I'm a fan of importing the main module (here `mpm`) to be able to get
+the version from it. A static data file that supported specifying all this
+same info would be cool. I'm not up on latest latest Python packaging stuff
+to know if something like that has been proposed.
+
 # What's left TODO?
 
 - do I need to use `setuptools` in "setup.py" or will distutils do?
